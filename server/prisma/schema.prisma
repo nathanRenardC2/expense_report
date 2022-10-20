@@ -14,6 +14,6 @@ model Report {
   id            Int      @id @default(autoincrement())
   title         String
   categorie     String
-  money_depense Int
+  money_depense Float
   createdAt     DateTime @default(now())
 }

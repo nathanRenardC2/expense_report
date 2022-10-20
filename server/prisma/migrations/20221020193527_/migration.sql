@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Report" ALTER COLUMN "money_depense" SET DATA TYPE DOUBLE PRECISION;
