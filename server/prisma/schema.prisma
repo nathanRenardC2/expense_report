@@ -17,3 +17,9 @@ model Report {
   money_depense Float
   createdAt     DateTime @default(now())
 }
+
+model Objectif {
+  id                      Int      @id @default(autoincrement())
+  money_depense_per_month Float
+  createdAt               DateTime @default(now())
+}

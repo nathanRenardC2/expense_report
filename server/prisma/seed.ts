@@ -1,4 +1,5 @@
 import {reports} from './reports'
+import {objectif} from './objectif'
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
